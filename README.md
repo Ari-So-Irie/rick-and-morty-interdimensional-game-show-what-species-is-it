@@ -25,4 +25,4 @@ To get started with this project, you will need to have a basic understanding of
 - Rick and Morty API
 
 ## Made By
-Arius Phillips: [Github](https://github.com/Ari-So-Irie)
+[Arius Phillips](https://github.com/Ari-So-Irie)
