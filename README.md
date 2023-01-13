@@ -1,9 +1,8 @@
 
 # Rick and Morty Interdimensional Trivia Game <em>What Species Is It?<em>
 
-This project is an example of how to use the Rick and Morty API to create a trivia-like game in which the user has to choose the correct species.
-
-The project uses JavaScript, HTML, and CSS to create a simple website that displays a random Rick and Morty character from the Rick and Morty API and allows the user to select the species. The user will get a feedback whether they are correct or not, and the score will be updated.
+This project uses JavaScript, HTML, and CSS to create a simple website that displays characters from the Rick and Morty API on cards. The website also includes buttons that allow the user to filter the characters by species.
+This project also uses the Rick and Morty API to create a trivia-like game in which the user has to choose the correct species. Displays a random Rick and Morty character from the Rick and Morty API and allows the user to select the species. The user will get a feedback whether they are correct or not, and the score will be updated.
 
 ## Getting Started
 
