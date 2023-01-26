@@ -4,6 +4,8 @@
 This project uses JavaScript, HTML, and CSS to create a simple website that displays characters from the Rick and Morty API on cards. The website also includes dropdown that allow the user to filter the characters by name. This project also has a page that displays all the characters from the Rick and Morty API.
 This project also uses the Rick and Morty API to create a trivia-like game in which the user has to choose the correct species. Displays a random Rick and Morty character from the Rick and Morty API and allows the user to select the species. The user will get a feedback whether they are correct or not, and the score will be updated.
 
+[Deployed site](https://joyful-sunshine-db230b.netlify.app/wiki.html)
+
 ## Getting Started
 
 To get started with this project, you will need to have a basic understanding of HTML, CSS, and JavaScript. You will also need to have a web development environment set up on your computer, such as a code editor and a local web server.
