@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><head>
+  <title>Home Page</title>
+    <!-- link popper.js library from a CDN before bootstrap  -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2"></script>
+    <!-- link jQuery library from a CDN before bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<!-- link Bootstrap CSS from a CDN -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="character.js"></script>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="home.html">Home Page</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Trivia</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="wiki.html">Characters</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+ <header class="header">
+    <h1>Rick and Morty Interdimensional Wide Web</h1>
+      <form class="dropdown-section">
+        <select class="dropdown">
+            <option>Character Search</option>
+        </select>
+    </form>
+      <main>
+        <p class="welcome"><strong>Welcome to the Rick and Morty Interdimensional Wide Web.</strong>
+          <strong><p>You can find infomation on any specific character from the Rick and Morty series above.</p></strong>
+          <strong><p>Bored? Play the Interdimensional Game Show What Species Is It?</p></strong>
+          
+        </p>
+
+        <div class="card-container" id="card-container">
+          <div id="character-card">
+            <img id="character-img" src="" alt="Character">
+            <h2 id="species-name"></h2>
+          </div>
+        </div>
+      </main>
+    </body>
+  </html>
